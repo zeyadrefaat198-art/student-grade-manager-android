@@ -1,0 +1,124 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFC"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STUDENT MANAGEMENT"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#2563EB"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Student"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="#0F172A"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit student information"
+            android:textSize="14sp"
+            android:textColor="#64748B"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="28dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="20dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student ID"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#334155"/>
+
+            <EditText
+                android:id="@+id/etUpdateId"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Enter Student ID"
+                android:inputType="number"
+                android:singleLine="true"
+                android:padding="12dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Student Name"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#334155"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/etUpdateName"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Enter new name"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:padding="12dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Student Grade"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#334155"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/etUpdateGrade"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Enter new grade (0 - 100)"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:padding="12dp"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:id="@+id/btnUpdateStudent"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="✎  Update Student"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2563EB"
+                android:layout_marginTop="28dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
