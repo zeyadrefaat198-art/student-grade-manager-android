@@ -6,6 +6,7 @@ A simple Android application for managing student grades and tracking academic p
 - Add and manage student grades
 - Calculate academic results
 - Simple and user-friendly interface
+- Android Release APK
 
 ## Tech Stack
 - Java
@@ -18,9 +19,6 @@ A simple Android application for managing student grades and tracking academic p
 Software Engineering Student  
 Suez Canal University
 
-## Screenshot
-
-![Student Grade Manager](screenshot.png)
-
-## About
+## Repository
 This project was developed as part of my journey in Android development and software engineering.
+
