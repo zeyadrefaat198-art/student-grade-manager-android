@@ -22,3 +22,7 @@ Suez Canal University
 ## Repository
 This project was developed as part of my journey in Android development and software engineering.
 
+
+## Screenshot
+
+![Student Grade Manager](Screenshot_2026-11-18-18-58-24-625_com.zeyadrefaat.studentgrademanager.jpg)
